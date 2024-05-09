@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 from datetime import datetime, timedelta
 
 # Load data
-data = pd.read_csv("../TW50.csv", usecols=["Date", "Price Index"])
+data = pd.read_csv("../FTSE TWSE Taiwan 50 Index.csv", usecols=["Date", "Price Index"])
 
 # Convert Date column to datetime format
 data["Date"] = pd.to_datetime(data["Date"])

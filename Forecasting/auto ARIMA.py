@@ -3,11 +3,11 @@ from pandas.tseries.offsets import BDay
 from pmdarima.arima import auto_arima
 
 # Load the CSV file with the specified date format
-file_path = "../TW50.csv"
+file_path = "../FTSE TWSE Taiwan 50 Index.csv"
 data = pd.read_csv(file_path, usecols=['Date', 'Price Index'], parse_dates=['Date'], date_parser=lambda x: pd.to_datetime(x, format='%Y/%m/%d'))
 
 # Filter data from 26 April 2024 onwards
-start_date = pd.to_datetime('2024-04-26', format='%Y-%m-%d')
+start_date = pd.to_datetime('2024-05-09', format='%Y-%m-%d')
 filtered_data = data[data['Date'] >= start_date]
 
 # Check if filtered data is not empty

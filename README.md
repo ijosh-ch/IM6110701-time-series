@@ -44,9 +44,22 @@ project.
     pip install -r env.txt
     ```
 5. Verify Python dependencies installation:
-    ```bash
-    pip list
-    ```
+    1. Run the following command to list all installed Python packages:
+        ```bash
+        pip list
+        ```
+    2. Open Jupyter Notebook:
+        ```bash
+        jupyter notebook --no-browser
+        ```
+    3. Open the `LSTM.ipynb` file and run the cells to see the result.
+         ```bash
+         Forecasting/LSTM.ipynb
+         ```
+6. To deactivate the virtual environment, run the following command:
+   ```bash
+   deactivate
+   ```
 
 ## Result History:
 

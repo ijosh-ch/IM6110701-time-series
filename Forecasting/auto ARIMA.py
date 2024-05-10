@@ -1,5 +1,4 @@
 import pandas as pd
-from pandas.tseries.offsets import BDay
 from pmdarima.arima import auto_arima
 
 # Load the CSV file with the specified date format

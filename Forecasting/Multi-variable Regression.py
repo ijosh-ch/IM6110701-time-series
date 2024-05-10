@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-from datetime import datetime, timedelta
+from datetime import timedelta
 
 # Load data
 data = pd.read_csv("../FTSE TWSE Taiwan 50 Index.csv", usecols=["Date", "Price Index"])

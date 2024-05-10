@@ -1,20 +1,15 @@
 # Time Series
 
-> Author:
+> **Authors**:
 > - D11202805 - Ian Joseph Chandra
 > - M11002818 - Wilfrid Azariah
 
-The result of this project can be seen in this [LSTM.ipynb file](./Forecasting/LSTM.ipynb).
-
 <!-- TOC -->
-
 * [Time Series](#time-series)
 * [1. Getting Started](#1-getting-started)
-    * [1.1 Navigate to Your Project Directory](#11-navigate-to-your-project-directory)
-    * [Result History:](#result-history)
-        * [2024-05-10](#2024-05-10)
-        * [2024-04-19](#2024-04-19)
-
+* [2. TW50 Index Prediction](#2-tw50-index-prediction)
+  * [2024-05-10](#2024-05-10)
+  * [2024-04-19](#2024-04-19)
 <!-- TOC -->
 
 # 1. Getting Started
@@ -61,9 +56,11 @@ project.
    deactivate
    ```
 
-## Result History:
+# 2. TW50 Index Prediction
 
-### 2024-05-10
+> The result of this project can be seen in this [LSTM.ipynb file](./Forecasting/LSTM.ipynb).
+
+## 2024-05-10
 
 - LSTM:
 
@@ -74,7 +71,7 @@ project.
     - 2024-05-15 : 15858.854
     - 2024-05-16 : 15800.044
 
-### 2024-04-19
+## 2024-04-19
 
 - LSTM:
 
